@@ -160,4 +160,85 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <comp lib="0" loc="(510,160)" name="Constant"/>
     <comp lib="0" loc="(160,160)" name="Constant"/>
   </circuit>
+  <circuit name="relogio">
+    <a name="circuit" val="relogio"/>
+    <a name="clabel" val=""/>
+    <a name="clabelup" val="east"/>
+    <a name="clabelfont" val="SansSerif plain 12"/>
+    <wire from="(720,170)" to="(720,180)"/>
+    <wire from="(200,210)" to="(200,340)"/>
+    <wire from="(280,140)" to="(280,210)"/>
+    <wire from="(650,170)" to="(650,180)"/>
+    <wire from="(790,170)" to="(790,180)"/>
+    <wire from="(860,170)" to="(860,180)"/>
+    <wire from="(190,170)" to="(190,180)"/>
+    <wire from="(210,140)" to="(210,340)"/>
+    <wire from="(400,170)" to="(400,180)"/>
+    <wire from="(260,170)" to="(260,180)"/>
+    <wire from="(330,170)" to="(330,180)"/>
+    <wire from="(180,240)" to="(420,240)"/>
+    <wire from="(350,140)" to="(350,220)"/>
+    <wire from="(420,140)" to="(420,240)"/>
+    <wire from="(190,220)" to="(350,220)"/>
+    <wire from="(600,140)" to="(620,140)"/>
+    <wire from="(180,240)" to="(180,340)"/>
+    <wire from="(660,140)" to="(690,140)"/>
+    <wire from="(280,140)" to="(300,140)"/>
+    <wire from="(730,140)" to="(760,140)"/>
+    <wire from="(350,140)" to="(370,140)"/>
+    <wire from="(140,140)" to="(160,140)"/>
+    <wire from="(800,140)" to="(830,140)"/>
+    <wire from="(210,140)" to="(230,140)"/>
+    <wire from="(410,140)" to="(420,140)"/>
+    <wire from="(720,180)" to="(790,180)"/>
+    <wire from="(270,140)" to="(280,140)"/>
+    <wire from="(650,180)" to="(720,180)"/>
+    <wire from="(340,140)" to="(350,140)"/>
+    <wire from="(200,210)" to="(280,210)"/>
+    <wire from="(200,140)" to="(210,140)"/>
+    <wire from="(790,180)" to="(860,180)"/>
+    <wire from="(190,180)" to="(260,180)"/>
+    <wire from="(190,220)" to="(190,340)"/>
+    <wire from="(260,180)" to="(330,180)"/>
+    <wire from="(330,180)" to="(400,180)"/>
+    <comp lib="0" loc="(300,160)" name="Constant"/>
+    <comp lib="0" loc="(830,160)" name="Constant"/>
+    <comp lib="0" loc="(220,360)" name="Splitter">
+      <a name="facing" val="north"/>
+      <a name="fanout" val="4"/>
+      <a name="incoming" val="4"/>
+    </comp>
+    <comp lib="4" loc="(660,140)" name="T Flip-Flop">
+      <a name="trigger" val="falling"/>
+    </comp>
+    <comp lib="0" loc="(620,160)" name="Constant"/>
+    <comp lib="0" loc="(760,160)" name="Constant"/>
+    <comp lib="4" loc="(410,140)" name="T Flip-Flop">
+      <a name="trigger" val="falling"/>
+    </comp>
+    <comp lib="4" loc="(870,140)" name="T Flip-Flop">
+      <a name="trigger" val="falling"/>
+    </comp>
+    <comp lib="0" loc="(600,140)" name="Clock"/>
+    <comp lib="0" loc="(370,160)" name="Constant"/>
+    <comp lib="4" loc="(270,140)" name="T Flip-Flop">
+      <a name="trigger" val="falling"/>
+    </comp>
+    <comp lib="4" loc="(340,140)" name="T Flip-Flop">
+      <a name="trigger" val="falling"/>
+    </comp>
+    <comp lib="4" loc="(800,140)" name="T Flip-Flop">
+      <a name="trigger" val="falling"/>
+    </comp>
+    <comp lib="4" loc="(730,140)" name="T Flip-Flop">
+      <a name="trigger" val="falling"/>
+    </comp>
+    <comp lib="0" loc="(140,140)" name="Clock"/>
+    <comp lib="0" loc="(160,160)" name="Constant"/>
+    <comp lib="0" loc="(690,160)" name="Constant"/>
+    <comp lib="4" loc="(200,140)" name="T Flip-Flop">
+      <a name="trigger" val="falling"/>
+    </comp>
+    <comp lib="0" loc="(230,160)" name="Constant"/>
+  </circuit>
 </project>
