@@ -5,6 +5,12 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <tool name="Splitter">
       <a name="facing" val="north"/>
     </tool>
+    <tool name="Tunnel">
+      <a name="facing" val="north"/>
+    </tool>
+    <tool name="Constant">
+      <a name="facing" val="south"/>
+    </tool>
   </lib>
   <lib desc="#Gates" name="1"/>
   <lib desc="#Plexers" name="2"/>
@@ -120,43 +126,43 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <wire from="(300,70)" to="(300,130)"/>
     <wire from="(480,110)" to="(480,300)"/>
     <wire from="(200,110)" to="(200,170)"/>
-    <comp lib="0" loc="(110,110)" name="Constant"/>
-    <comp lib="1" loc="(230,50)" name="OR Gate">
-      <a name="facing" val="west"/>
+    <comp lib="5" loc="(290,440)" name="Hex Digit Display"/>
+    <comp lib="1" loc="(370,240)" name="AND Gate">
+      <a name="facing" val="south"/>
       <a name="size" val="30"/>
       <a name="inputs" val="2"/>
     </comp>
-    <comp lib="5" loc="(330,440)" name="Hex Digit Display"/>
-    <comp lib="4" loc="(360,110)" name="J-K Flip-Flop">
-      <a name="label" val="1"/>
+    <comp lib="4" loc="(260,110)" name="J-K Flip-Flop">
+      <a name="label" val="2"/>
     </comp>
     <comp lib="0" loc="(210,330)" name="Splitter">
       <a name="facing" val="north"/>
       <a name="fanout" val="4"/>
       <a name="incoming" val="4"/>
     </comp>
-    <comp lib="1" loc="(370,240)" name="AND Gate">
-      <a name="facing" val="south"/>
-      <a name="size" val="30"/>
-      <a name="inputs" val="2"/>
-    </comp>
+    <comp lib="5" loc="(330,440)" name="Hex Digit Display"/>
     <comp lib="4" loc="(150,110)" name="J-K Flip-Flop">
       <a name="label" val="3"/>
     </comp>
-    <comp lib="5" loc="(290,440)" name="Hex Digit Display"/>
-    <comp lib="4" loc="(260,110)" name="J-K Flip-Flop">
-      <a name="label" val="2"/>
-    </comp>
-    <comp lib="4" loc="(460,110)" name="J-K Flip-Flop">
-      <a name="label" val="0"/>
-    </comp>
-    <comp lib="0" loc="(30,120)" name="Clock"/>
     <comp lib="3" loc="(260,450)" name="Divider">
       <a name="width" val="4"/>
+    </comp>
+    <comp lib="1" loc="(230,50)" name="OR Gate">
+      <a name="facing" val="west"/>
+      <a name="size" val="30"/>
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="0" loc="(110,110)" name="Constant"/>
+    <comp lib="4" loc="(460,110)" name="J-K Flip-Flop">
+      <a name="label" val="0"/>
     </comp>
     <comp lib="0" loc="(200,460)" name="Constant">
       <a name="width" val="4"/>
       <a name="value" val="0xa"/>
+    </comp>
+    <comp lib="0" loc="(30,120)" name="Clock"/>
+    <comp lib="4" loc="(360,110)" name="J-K Flip-Flop">
+      <a name="label" val="1"/>
     </comp>
   </circuit>
   <circuit name="2">
@@ -164,171 +170,135 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <a name="clabel" val=""/>
     <a name="clabelup" val="east"/>
     <a name="clabelfont" val="SansSerif plain 12"/>
+    <wire from="(210,300)" to="(210,430)"/>
+    <wire from="(370,90)" to="(370,160)"/>
+    <wire from="(100,100)" to="(160,100)"/>
+    <wire from="(290,520)" to="(410,520)"/>
     <wire from="(350,430)" to="(470,430)"/>
+    <wire from="(230,320)" to="(280,320)"/>
     <wire from="(270,330)" to="(270,340)"/>
     <wire from="(250,450)" to="(250,470)"/>
     <wire from="(280,320)" to="(280,340)"/>
+    <wire from="(290,500)" to="(290,520)"/>
+    <wire from="(310,360)" to="(310,380)"/>
     <wire from="(350,410)" to="(350,430)"/>
+    <wire from="(210,90)" to="(210,300)"/>
+    <wire from="(410,500)" to="(410,520)"/>
     <wire from="(470,410)" to="(470,430)"/>
     <wire from="(150,60)" to="(450,60)"/>
+    <wire from="(450,90)" to="(450,170)"/>
+    <wire from="(450,60)" to="(450,90)"/>
     <wire from="(290,310)" to="(290,340)"/>
+    <wire from="(150,60)" to="(150,90)"/>
     <wire from="(210,90)" to="(240,90)"/>
+    <wire from="(240,330)" to="(270,330)"/>
+    <wire from="(240,170)" to="(240,330)"/>
+    <wire from="(230,160)" to="(230,320)"/>
+    <wire from="(220,150)" to="(220,310)"/>
     <wire from="(210,300)" to="(300,300)"/>
     <wire from="(290,90)" to="(320,90)"/>
     <wire from="(370,90)" to="(400,90)"/>
     <wire from="(240,330)" to="(240,430)"/>
     <wire from="(310,380)" to="(330,380)"/>
+    <wire from="(250,470)" to="(270,470)"/>
     <wire from="(300,300)" to="(300,340)"/>
     <wire from="(240,170)" to="(450,170)"/>
     <wire from="(230,320)" to="(230,430)"/>
+    <wire from="(440,90)" to="(450,90)"/>
     <wire from="(160,100)" to="(240,100)"/>
+    <wire from="(280,90)" to="(290,90)"/>
     <wire from="(240,100)" to="(320,100)"/>
+    <wire from="(360,90)" to="(370,90)"/>
     <wire from="(320,100)" to="(400,100)"/>
     <wire from="(150,90)" to="(160,90)"/>
+    <wire from="(200,90)" to="(210,90)"/>
     <wire from="(230,160)" to="(370,160)"/>
     <wire from="(290,90)" to="(290,150)"/>
     <wire from="(220,150)" to="(290,150)"/>
     <wire from="(220,310)" to="(290,310)"/>
     <wire from="(220,310)" to="(220,430)"/>
-    <wire from="(210,300)" to="(210,430)"/>
-    <wire from="(370,90)" to="(370,160)"/>
-    <wire from="(100,100)" to="(160,100)"/>
-    <wire from="(290,520)" to="(410,520)"/>
-    <wire from="(230,320)" to="(280,320)"/>
-    <wire from="(290,500)" to="(290,520)"/>
-    <wire from="(310,360)" to="(310,380)"/>
-    <wire from="(210,90)" to="(210,300)"/>
-    <wire from="(410,500)" to="(410,520)"/>
-    <wire from="(450,90)" to="(450,170)"/>
-    <wire from="(450,60)" to="(450,90)"/>
-    <wire from="(150,60)" to="(150,90)"/>
-    <wire from="(240,330)" to="(270,330)"/>
-    <wire from="(240,170)" to="(240,330)"/>
-    <wire from="(230,160)" to="(230,320)"/>
-    <wire from="(220,150)" to="(220,310)"/>
-    <wire from="(250,470)" to="(270,470)"/>
-    <wire from="(440,90)" to="(450,90)"/>
-    <wire from="(280,90)" to="(290,90)"/>
-    <wire from="(360,90)" to="(370,90)"/>
-    <wire from="(200,90)" to="(210,90)"/>
+    <comp lib="4" loc="(200,90)" name="J-K Flip-Flop">
+      <a name="label" val="3"/>
+    </comp>
+    <comp lib="0" loc="(400,110)" name="Constant"/>
+    <comp lib="5" loc="(470,410)" name="Hex Digit Display"/>
+    <comp lib="0" loc="(100,100)" name="Clock"/>
+    <comp lib="5" loc="(410,500)" name="Hex Digit Display"/>
+    <comp lib="3" loc="(370,390)" name="Divider">
+      <a name="width" val="4"/>
+    </comp>
+    <comp lib="4" loc="(280,90)" name="J-K Flip-Flop">
+      <a name="label" val="2"/>
+    </comp>
+    <comp lib="4" loc="(440,90)" name="J-K Flip-Flop">
+      <a name="label" val="0"/>
+    </comp>
+    <comp lib="0" loc="(270,490)" name="Constant">
+      <a name="width" val="4"/>
+      <a name="value" val="0xa"/>
+    </comp>
+    <comp lib="0" loc="(320,110)" name="Constant"/>
     <comp lib="0" loc="(330,400)" name="Constant">
       <a name="width" val="4"/>
       <a name="value" val="0xa"/>
     </comp>
-    <comp lib="0" loc="(100,100)" name="Clock"/>
-    <comp lib="5" loc="(410,500)" name="Hex Digit Display"/>
-    <comp lib="0" loc="(160,110)" name="Constant"/>
-    <comp lib="3" loc="(370,390)" name="Divider">
-      <a name="width" val="4"/>
-    </comp>
-    <comp lib="3" loc="(310,480)" name="Divider">
-      <a name="width" val="4"/>
-    </comp>
-    <comp lib="0" loc="(240,110)" name="Constant"/>
     <comp lib="0" loc="(250,450)" name="Splitter">
       <a name="facing" val="north"/>
       <a name="fanout" val="4"/>
       <a name="incoming" val="4"/>
     </comp>
-    <comp lib="4" loc="(200,90)" name="J-K Flip-Flop">
-      <a name="label" val="3"/>
-    </comp>
-    <comp lib="0" loc="(320,110)" name="Constant"/>
-    <comp lib="0" loc="(270,490)" name="Constant">
+    <comp lib="3" loc="(310,480)" name="Divider">
       <a name="width" val="4"/>
-      <a name="value" val="0xa"/>
     </comp>
-    <comp lib="4" loc="(280,90)" name="J-K Flip-Flop">
-      <a name="label" val="2"/>
-    </comp>
+    <comp lib="0" loc="(160,110)" name="Constant"/>
     <comp lib="0" loc="(310,360)" name="Splitter">
       <a name="facing" val="north"/>
       <a name="fanout" val="4"/>
       <a name="incoming" val="4"/>
     </comp>
-    <comp lib="0" loc="(400,110)" name="Constant"/>
     <comp lib="4" loc="(360,90)" name="J-K Flip-Flop">
       <a name="label" val="1"/>
     </comp>
-    <comp lib="5" loc="(470,410)" name="Hex Digit Display"/>
-    <comp lib="4" loc="(440,90)" name="J-K Flip-Flop">
-      <a name="label" val="0"/>
-    </comp>
+    <comp lib="0" loc="(240,110)" name="Constant"/>
   </circuit>
   <circuit name="shift right">
     <a name="circuit" val="shift right"/>
     <a name="clabel" val=""/>
     <a name="clabelup" val="east"/>
     <a name="clabelfont" val="SansSerif plain 12"/>
-    <wire from="(240,340)" to="(240,470)"/>
-    <wire from="(230,330)" to="(230,470)"/>
+    <wire from="(220,150)" to="(220,470)"/>
     <wire from="(250,490)" to="(250,510)"/>
-    <wire from="(260,340)" to="(260,360)"/>
-    <wire from="(300,380)" to="(300,400)"/>
-    <wire from="(220,320)" to="(220,470)"/>
-    <wire from="(270,330)" to="(270,360)"/>
     <wire from="(200,110)" to="(240,110)"/>
     <wire from="(320,520)" to="(320,550)"/>
-    <wire from="(370,410)" to="(370,440)"/>
     <wire from="(280,110)" to="(320,110)"/>
     <wire from="(360,110)" to="(400,110)"/>
     <wire from="(210,90)" to="(240,90)"/>
-    <wire from="(210,310)" to="(210,470)"/>
     <wire from="(290,90)" to="(320,90)"/>
     <wire from="(370,90)" to="(400,90)"/>
-    <wire from="(280,320)" to="(280,360)"/>
     <wire from="(240,170)" to="(450,170)"/>
     <wire from="(160,100)" to="(240,100)"/>
     <wire from="(240,100)" to="(320,100)"/>
-    <wire from="(210,310)" to="(290,310)"/>
     <wire from="(320,100)" to="(400,100)"/>
-    <wire from="(290,310)" to="(290,360)"/>
     <wire from="(230,160)" to="(370,160)"/>
     <wire from="(290,90)" to="(290,150)"/>
     <wire from="(220,150)" to="(290,150)"/>
     <wire from="(370,90)" to="(370,160)"/>
     <wire from="(100,100)" to="(160,100)"/>
-    <wire from="(220,320)" to="(280,320)"/>
     <wire from="(320,550)" to="(370,550)"/>
-    <wire from="(370,440)" to="(420,440)"/>
     <wire from="(290,560)" to="(410,560)"/>
-    <wire from="(420,430)" to="(420,440)"/>
-    <wire from="(340,450)" to="(460,450)"/>
     <wire from="(370,540)" to="(370,550)"/>
     <wire from="(290,540)" to="(290,560)"/>
-    <wire from="(340,430)" to="(340,450)"/>
     <wire from="(410,540)" to="(410,560)"/>
-    <wire from="(460,430)" to="(460,450)"/>
     <wire from="(450,90)" to="(450,170)"/>
-    <wire from="(230,330)" to="(270,330)"/>
-    <wire from="(210,90)" to="(210,310)"/>
     <wire from="(250,510)" to="(270,510)"/>
-    <wire from="(300,400)" to="(320,400)"/>
-    <wire from="(240,170)" to="(240,340)"/>
-    <wire from="(230,160)" to="(230,330)"/>
-    <wire from="(220,150)" to="(220,320)"/>
-    <wire from="(240,340)" to="(260,340)"/>
+    <wire from="(240,170)" to="(240,470)"/>
     <wire from="(440,90)" to="(450,90)"/>
     <wire from="(280,90)" to="(290,90)"/>
     <wire from="(310,520)" to="(320,520)"/>
     <wire from="(360,90)" to="(370,90)"/>
-    <wire from="(360,410)" to="(370,410)"/>
     <wire from="(200,90)" to="(210,90)"/>
-    <comp lib="5" loc="(370,540)" name="Hex Digit Display"/>
-    <comp lib="5" loc="(460,430)" name="Hex Digit Display"/>
-    <comp lib="0" loc="(300,380)" name="Splitter">
-      <a name="facing" val="north"/>
-      <a name="fanout" val="4"/>
-      <a name="incoming" val="4"/>
-    </comp>
-    <comp lib="0" loc="(320,420)" name="Constant">
-      <a name="width" val="4"/>
-      <a name="value" val="0xa"/>
-    </comp>
-    <comp lib="4" loc="(360,90)" name="J-K Flip-Flop">
-      <a name="label" val="1"/>
-    </comp>
-    <comp lib="0" loc="(100,100)" name="Clock"/>
+    <wire from="(230,160)" to="(230,470)"/>
+    <wire from="(210,90)" to="(210,470)"/>
     <comp lib="4" loc="(280,90)" name="J-K Flip-Flop">
       <a name="label" val="2"/>
     </comp>
@@ -336,28 +306,29 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
       <a name="width" val="4"/>
       <a name="value" val="0xa"/>
     </comp>
+    <comp lib="4" loc="(440,90)" name="J-K Flip-Flop">
+      <a name="label" val="0"/>
+    </comp>
+    <comp lib="5" loc="(370,540)" name="Hex Digit Display"/>
     <comp lib="0" loc="(250,490)" name="Splitter">
       <a name="facing" val="north"/>
       <a name="fanout" val="4"/>
       <a name="incoming" val="4"/>
     </comp>
-    <comp lib="4" loc="(200,90)" name="J-K Flip-Flop">
-      <a name="label" val="3"/>
-    </comp>
-    <comp lib="0" loc="(160,90)" name="Constant">
-      <a name="value" val="0x0"/>
-    </comp>
-    <comp lib="5" loc="(410,540)" name="Hex Digit Display"/>
-    <comp lib="0" loc="(160,110)" name="Constant"/>
-    <comp lib="4" loc="(440,90)" name="J-K Flip-Flop">
-      <a name="label" val="0"/>
-    </comp>
     <comp lib="3" loc="(310,520)" name="Divider">
       <a name="width" val="4"/>
     </comp>
-    <comp lib="5" loc="(420,430)" name="Hex Digit Display"/>
-    <comp lib="3" loc="(360,410)" name="Divider">
-      <a name="width" val="4"/>
+    <comp lib="4" loc="(200,90)" name="J-K Flip-Flop">
+      <a name="label" val="3"/>
+    </comp>
+    <comp lib="0" loc="(160,110)" name="Constant"/>
+    <comp lib="5" loc="(410,540)" name="Hex Digit Display"/>
+    <comp lib="0" loc="(160,90)" name="Constant">
+      <a name="value" val="0x0"/>
+    </comp>
+    <comp lib="0" loc="(100,100)" name="Clock"/>
+    <comp lib="4" loc="(360,90)" name="J-K Flip-Flop">
+      <a name="label" val="1"/>
     </comp>
   </circuit>
 </project>
