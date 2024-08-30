@@ -57,6 +57,15 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <a name="clabel" val=""/>
     <a name="clabelup" val="east"/>
     <a name="clabelfont" val="SansSerif plain 12"/>
+    <appear>
+      <rect fill="none" height="40" stroke="#000000" stroke-width="2" width="81" x="150" y="50"/>
+      <text font-family="SansSerif" font-size="12" text-anchor="middle" x="190" y="72">Memória 8x11</text>
+      <circ-port height="8" pin="130,200" width="8" x="186" y="46"/>
+      <circ-port height="8" pin="170,280" width="8" x="156" y="46"/>
+      <circ-port height="10" pin="160,1330" width="10" x="185" y="85"/>
+      <circ-port height="8" pin="60,290" width="8" x="146" y="66"/>
+      <circ-anchor facing="east" height="6" width="6" x="187" y="67"/>
+    </appear>
     <wire from="(2430,700)" to="(2430,800)"/>
     <wire from="(2090,910)" to="(2120,910)"/>
     <wire from="(620,620)" to="(620,630)"/>
@@ -1287,332 +1296,13 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <wire from="(1250,1120)" to="(1250,1160)"/>
     <wire from="(1220,880)" to="(1240,880)"/>
     <wire from="(1800,900)" to="(1800,1000)"/>
-    <comp lib="4" loc="(2270,480)" name="D Flip-Flop"/>
-    <comp lib="1" loc="(830,820)" name="AND Gate">
+    <comp lib="1" loc="(1460,720)" name="AND Gate">
       <a name="facing" val="south"/>
       <a name="size" val="30"/>
       <a name="inputs" val="2"/>
     </comp>
-    <comp lib="4" loc="(2270,680)" name="D Flip-Flop"/>
-    <comp lib="4" loc="(2480,680)" name="D Flip-Flop"/>
-    <comp lib="4" loc="(590,880)" name="D Flip-Flop"/>
-    <comp lib="4" loc="(590,980)" name="D Flip-Flop"/>
-    <comp lib="1" loc="(410,820)" name="AND Gate">
-      <a name="facing" val="south"/>
-      <a name="size" val="30"/>
-      <a name="inputs" val="2"/>
-    </comp>
-    <comp lib="1" loc="(1460,420)" name="AND Gate">
-      <a name="facing" val="south"/>
-      <a name="size" val="30"/>
-      <a name="inputs" val="2"/>
-    </comp>
-    <comp lib="1" loc="(300,760)" name="AND Gate">
-      <a name="size" val="30"/>
-      <a name="inputs" val="2"/>
-    </comp>
-    <comp lib="4" loc="(2060,780)" name="D Flip-Flop"/>
-    <comp lib="4" loc="(1430,380)" name="D Flip-Flop"/>
-    <comp lib="4" loc="(380,880)" name="D Flip-Flop"/>
-    <comp lib="4" loc="(1010,680)" name="D Flip-Flop"/>
-    <comp lib="1" loc="(1880,720)" name="AND Gate">
-      <a name="facing" val="south"/>
-      <a name="size" val="30"/>
-      <a name="inputs" val="2"/>
-    </comp>
-    <comp lib="4" loc="(1220,580)" name="D Flip-Flop"/>
-    <comp lib="4" loc="(1850,480)" name="D Flip-Flop"/>
-    <comp lib="4" loc="(2060,880)" name="D Flip-Flop"/>
-    <comp lib="1" loc="(1880,920)" name="AND Gate">
-      <a name="facing" val="south"/>
-      <a name="size" val="30"/>
-      <a name="inputs" val="2"/>
-    </comp>
-    <comp lib="1" loc="(1250,820)" name="AND Gate">
-      <a name="facing" val="south"/>
-      <a name="size" val="30"/>
-      <a name="inputs" val="2"/>
-    </comp>
-    <comp lib="4" loc="(800,780)" name="D Flip-Flop"/>
-    <comp lib="1" loc="(1670,420)" name="AND Gate">
-      <a name="facing" val="south"/>
-      <a name="size" val="30"/>
-      <a name="inputs" val="2"/>
-    </comp>
-    <comp lib="4" loc="(1640,380)" name="D Flip-Flop"/>
-    <comp lib="4" loc="(2060,480)" name="D Flip-Flop"/>
-    <comp lib="1" loc="(1290,1190)" name="OR Gate">
-      <a name="facing" val="south"/>
-      <a name="size" val="30"/>
-      <a name="inputs" val="8"/>
-    </comp>
-    <comp lib="1" loc="(1670,520)" name="AND Gate">
-      <a name="facing" val="south"/>
-      <a name="size" val="30"/>
-      <a name="inputs" val="2"/>
-    </comp>
-    <comp lib="4" loc="(380,780)" name="D Flip-Flop"/>
-    <comp lib="4" loc="(800,880)" name="D Flip-Flop"/>
-    <comp lib="1" loc="(1460,520)" name="AND Gate">
-      <a name="facing" val="south"/>
-      <a name="size" val="30"/>
-      <a name="inputs" val="2"/>
-    </comp>
-    <comp lib="4" loc="(2270,380)" name="D Flip-Flop"/>
-    <comp lib="1" loc="(1460,1020)" name="AND Gate">
-      <a name="facing" val="south"/>
-      <a name="size" val="30"/>
-      <a name="inputs" val="2"/>
-    </comp>
-    <comp lib="1" loc="(2300,920)" name="AND Gate">
-      <a name="facing" val="south"/>
-      <a name="size" val="30"/>
-      <a name="inputs" val="2"/>
-    </comp>
-    <comp lib="4" loc="(1850,780)" name="D Flip-Flop"/>
-    <comp lib="4" loc="(1010,880)" name="D Flip-Flop"/>
-    <comp lib="4" loc="(1430,480)" name="D Flip-Flop"/>
-    <comp lib="1" loc="(2300,520)" name="AND Gate">
-      <a name="facing" val="south"/>
-      <a name="size" val="30"/>
-      <a name="inputs" val="2"/>
-    </comp>
-    <comp lib="4" loc="(1850,980)" name="D Flip-Flop"/>
-    <comp lib="4" loc="(1010,580)" name="D Flip-Flop"/>
-    <comp lib="1" loc="(1250,1020)" name="AND Gate">
-      <a name="facing" val="south"/>
-      <a name="size" val="30"/>
-      <a name="inputs" val="2"/>
-    </comp>
-    <comp lib="4" loc="(2060,980)" name="D Flip-Flop"/>
-    <comp lib="1" loc="(1460,1120)" name="AND Gate">
-      <a name="facing" val="south"/>
-      <a name="size" val="30"/>
-      <a name="inputs" val="2"/>
-    </comp>
-    <comp lib="1" loc="(2130,1190)" name="OR Gate">
-      <a name="facing" val="south"/>
-      <a name="size" val="30"/>
-      <a name="inputs" val="8"/>
-    </comp>
-    <comp lib="1" loc="(1670,1120)" name="AND Gate">
-      <a name="facing" val="south"/>
-      <a name="size" val="30"/>
-      <a name="inputs" val="2"/>
-    </comp>
-    <comp lib="1" loc="(270,740)" name="AND Gate">
-      <a name="size" val="30"/>
-      <a name="inputs" val="3"/>
-      <a name="negate1" val="true"/>
-      <a name="negate2" val="true"/>
-    </comp>
-    <comp lib="1" loc="(410,720)" name="AND Gate">
-      <a name="facing" val="south"/>
-      <a name="size" val="30"/>
-      <a name="inputs" val="2"/>
-    </comp>
-    <comp lib="1" loc="(1670,720)" name="AND Gate">
-      <a name="facing" val="south"/>
-      <a name="size" val="30"/>
-      <a name="inputs" val="2"/>
-    </comp>
-    <comp lib="1" loc="(870,1190)" name="OR Gate">
-      <a name="facing" val="south"/>
-      <a name="size" val="30"/>
-      <a name="inputs" val="8"/>
-    </comp>
-    <comp lib="1" loc="(1500,1190)" name="OR Gate">
-      <a name="facing" val="south"/>
-      <a name="size" val="30"/>
-      <a name="inputs" val="8"/>
-    </comp>
-    <comp lib="1" loc="(1250,1120)" name="AND Gate">
-      <a name="facing" val="south"/>
-      <a name="size" val="30"/>
-      <a name="inputs" val="2"/>
-    </comp>
-    <comp lib="1" loc="(2510,820)" name="AND Gate">
-      <a name="facing" val="south"/>
-      <a name="size" val="30"/>
-      <a name="inputs" val="2"/>
-    </comp>
-    <comp lib="1" loc="(620,420)" name="AND Gate">
-      <a name="facing" val="south"/>
-      <a name="size" val="30"/>
-      <a name="inputs" val="2"/>
-    </comp>
-    <comp lib="4" loc="(2480,380)" name="D Flip-Flop"/>
-    <comp lib="4" loc="(1640,580)" name="D Flip-Flop"/>
-    <comp lib="1" loc="(270,340)" name="AND Gate">
-      <a name="size" val="30"/>
-      <a name="inputs" val="3"/>
-      <a name="negate0" val="true"/>
-      <a name="negate1" val="true"/>
-      <a name="negate2" val="true"/>
-    </comp>
-    <comp lib="4" loc="(1850,680)" name="D Flip-Flop"/>
     <comp lib="4" loc="(590,780)" name="D Flip-Flop"/>
-    <comp lib="1" loc="(830,720)" name="AND Gate">
-      <a name="facing" val="south"/>
-      <a name="size" val="30"/>
-      <a name="inputs" val="2"/>
-    </comp>
-    <comp lib="4" loc="(2270,580)" name="D Flip-Flop"/>
-    <comp lib="1" loc="(1880,1120)" name="AND Gate">
-      <a name="facing" val="south"/>
-      <a name="size" val="30"/>
-      <a name="inputs" val="2"/>
-    </comp>
-    <comp lib="1" loc="(1460,620)" name="AND Gate">
-      <a name="facing" val="south"/>
-      <a name="size" val="30"/>
-      <a name="inputs" val="2"/>
-    </comp>
-    <comp lib="1" loc="(830,520)" name="AND Gate">
-      <a name="facing" val="south"/>
-      <a name="size" val="30"/>
-      <a name="inputs" val="2"/>
-    </comp>
     <comp lib="1" loc="(2300,1020)" name="AND Gate">
-      <a name="facing" val="south"/>
-      <a name="size" val="30"/>
-      <a name="inputs" val="2"/>
-    </comp>
-    <comp lib="1" loc="(410,1020)" name="AND Gate">
-      <a name="facing" val="south"/>
-      <a name="size" val="30"/>
-      <a name="inputs" val="2"/>
-    </comp>
-    <comp lib="4" loc="(1640,980)" name="D Flip-Flop"/>
-    <comp lib="4" loc="(1640,880)" name="D Flip-Flop"/>
-    <comp lib="1" loc="(410,520)" name="AND Gate">
-      <a name="facing" val="south"/>
-      <a name="size" val="30"/>
-      <a name="inputs" val="2"/>
-    </comp>
-    <comp lib="1" loc="(1710,1190)" name="OR Gate">
-      <a name="facing" val="south"/>
-      <a name="size" val="30"/>
-      <a name="inputs" val="8"/>
-    </comp>
-    <comp lib="1" loc="(1040,1020)" name="AND Gate">
-      <a name="facing" val="south"/>
-      <a name="size" val="30"/>
-      <a name="inputs" val="2"/>
-    </comp>
-    <comp lib="1" loc="(2300,620)" name="AND Gate">
-      <a name="facing" val="south"/>
-      <a name="size" val="30"/>
-      <a name="inputs" val="2"/>
-    </comp>
-    <comp lib="1" loc="(2090,420)" name="AND Gate">
-      <a name="facing" val="south"/>
-      <a name="size" val="30"/>
-      <a name="inputs" val="2"/>
-    </comp>
-    <comp lib="1" loc="(270,1040)" name="AND Gate">
-      <a name="size" val="30"/>
-      <a name="inputs" val="3"/>
-    </comp>
-    <comp lib="1" loc="(1460,820)" name="AND Gate">
-      <a name="facing" val="south"/>
-      <a name="size" val="30"/>
-      <a name="inputs" val="2"/>
-    </comp>
-    <comp lib="1" loc="(2300,720)" name="AND Gate">
-      <a name="facing" val="south"/>
-      <a name="size" val="30"/>
-      <a name="inputs" val="2"/>
-    </comp>
-    <comp lib="4" loc="(2480,980)" name="D Flip-Flop"/>
-    <comp lib="1" loc="(1250,620)" name="AND Gate">
-      <a name="facing" val="south"/>
-      <a name="size" val="30"/>
-      <a name="inputs" val="2"/>
-    </comp>
-    <comp lib="4" loc="(590,580)" name="D Flip-Flop"/>
-    <comp lib="4" loc="(1430,780)" name="D Flip-Flop"/>
-    <comp lib="1" loc="(2090,820)" name="AND Gate">
-      <a name="facing" val="south"/>
-      <a name="size" val="30"/>
-      <a name="inputs" val="2"/>
-    </comp>
-    <comp lib="4" loc="(2060,680)" name="D Flip-Flop"/>
-    <comp lib="1" loc="(1080,1190)" name="OR Gate">
-      <a name="facing" val="south"/>
-      <a name="size" val="30"/>
-      <a name="inputs" val="8"/>
-    </comp>
-    <comp lib="4" loc="(2270,980)" name="D Flip-Flop"/>
-    <comp lib="1" loc="(300,560)" name="AND Gate">
-      <a name="size" val="30"/>
-      <a name="inputs" val="2"/>
-    </comp>
-    <comp lib="1" loc="(2510,920)" name="AND Gate">
-      <a name="facing" val="south"/>
-      <a name="size" val="30"/>
-      <a name="inputs" val="2"/>
-    </comp>
-    <comp lib="4" loc="(800,380)" name="D Flip-Flop"/>
-    <comp lib="1" loc="(300,1060)" name="AND Gate">
-      <a name="size" val="30"/>
-      <a name="inputs" val="2"/>
-    </comp>
-    <comp lib="1" loc="(1920,1190)" name="OR Gate">
-      <a name="facing" val="south"/>
-      <a name="size" val="30"/>
-      <a name="inputs" val="8"/>
-    </comp>
-    <comp lib="1" loc="(1880,820)" name="AND Gate">
-      <a name="facing" val="south"/>
-      <a name="size" val="30"/>
-      <a name="inputs" val="2"/>
-    </comp>
-    <comp lib="4" loc="(590,680)" name="D Flip-Flop"/>
-    <comp lib="4" loc="(2270,1080)" name="D Flip-Flop"/>
-    <comp lib="4" loc="(1640,680)" name="D Flip-Flop"/>
-    <comp lib="0" loc="(170,280)" name="Pin">
-      <a name="width" val="3"/>
-      <a name="tristate" val="false"/>
-      <a name="label" val="Endereço"/>
-    </comp>
-    <comp lib="4" loc="(2270,880)" name="D Flip-Flop"/>
-    <comp lib="4" loc="(1430,680)" name="D Flip-Flop"/>
-    <comp lib="4" loc="(800,980)" name="D Flip-Flop"/>
-    <comp lib="1" loc="(300,960)" name="AND Gate">
-      <a name="size" val="30"/>
-      <a name="inputs" val="2"/>
-    </comp>
-    <comp lib="4" loc="(590,480)" name="D Flip-Flop"/>
-    <comp lib="4" loc="(1220,680)" name="D Flip-Flop"/>
-    <comp lib="1" loc="(620,620)" name="AND Gate">
-      <a name="facing" val="south"/>
-      <a name="size" val="30"/>
-      <a name="inputs" val="2"/>
-    </comp>
-    <comp lib="4" loc="(800,580)" name="D Flip-Flop"/>
-    <comp lib="4" loc="(1430,580)" name="D Flip-Flop"/>
-    <comp lib="1" loc="(2510,720)" name="AND Gate">
-      <a name="facing" val="south"/>
-      <a name="size" val="30"/>
-      <a name="inputs" val="2"/>
-    </comp>
-    <comp lib="1" loc="(1670,620)" name="AND Gate">
-      <a name="facing" val="south"/>
-      <a name="size" val="30"/>
-      <a name="inputs" val="2"/>
-    </comp>
-    <comp lib="4" loc="(2480,580)" name="D Flip-Flop"/>
-    <comp lib="1" loc="(1250,720)" name="AND Gate">
-      <a name="facing" val="south"/>
-      <a name="size" val="30"/>
-      <a name="inputs" val="2"/>
-    </comp>
-    <comp lib="0" loc="(180,1330)" name="Splitter">
-      <a name="fanout" val="11"/>
-      <a name="incoming" val="11"/>
-    </comp>
-    <comp lib="1" loc="(2510,1020)" name="AND Gate">
       <a name="facing" val="south"/>
       <a name="size" val="30"/>
       <a name="inputs" val="2"/>
@@ -1622,167 +1312,148 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
       <a name="size" val="30"/>
       <a name="inputs" val="2"/>
     </comp>
-    <comp lib="4" loc="(1640,1080)" name="D Flip-Flop"/>
-    <comp lib="1" loc="(620,520)" name="AND Gate">
-      <a name="facing" val="south"/>
-      <a name="size" val="30"/>
-      <a name="inputs" val="2"/>
-    </comp>
-    <comp lib="1" loc="(620,820)" name="AND Gate">
-      <a name="facing" val="south"/>
-      <a name="size" val="30"/>
-      <a name="inputs" val="2"/>
-    </comp>
-    <comp lib="1" loc="(1670,920)" name="AND Gate">
-      <a name="facing" val="south"/>
-      <a name="size" val="30"/>
-      <a name="inputs" val="2"/>
-    </comp>
-    <comp lib="4" loc="(2060,1080)" name="D Flip-Flop"/>
-    <comp lib="1" loc="(2090,720)" name="AND Gate">
-      <a name="facing" val="south"/>
-      <a name="size" val="30"/>
-      <a name="inputs" val="2"/>
-    </comp>
-    <comp lib="4" loc="(2480,880)" name="D Flip-Flop"/>
-    <comp lib="1" loc="(270,840)" name="AND Gate">
-      <a name="size" val="30"/>
-      <a name="inputs" val="3"/>
-      <a name="negate1" val="true"/>
-    </comp>
-    <comp lib="1" loc="(1250,420)" name="AND Gate">
-      <a name="facing" val="south"/>
-      <a name="size" val="30"/>
-      <a name="inputs" val="2"/>
-    </comp>
-    <comp lib="4" loc="(1010,480)" name="D Flip-Flop"/>
-    <comp lib="4" loc="(380,480)" name="D Flip-Flop"/>
-    <comp lib="1" loc="(830,620)" name="AND Gate">
-      <a name="facing" val="south"/>
-      <a name="size" val="30"/>
-      <a name="inputs" val="2"/>
-    </comp>
-    <comp lib="0" loc="(130,200)" name="Pin">
-      <a name="width" val="11"/>
-      <a name="tristate" val="false"/>
-      <a name="label" val="Entrada"/>
-    </comp>
-    <comp lib="4" loc="(1220,880)" name="D Flip-Flop"/>
-    <comp lib="1" loc="(1460,920)" name="AND Gate">
-      <a name="facing" val="south"/>
-      <a name="size" val="30"/>
-      <a name="inputs" val="2"/>
-    </comp>
+    <comp lib="4" loc="(1220,380)" name="D Flip-Flop"/>
     <comp lib="1" loc="(2090,920)" name="AND Gate">
       <a name="facing" val="south"/>
       <a name="size" val="30"/>
       <a name="inputs" val="2"/>
     </comp>
-    <comp lib="4" loc="(1220,480)" name="D Flip-Flop"/>
-    <comp lib="4" loc="(1430,880)" name="D Flip-Flop"/>
-    <comp lib="1" loc="(1040,1120)" name="AND Gate">
-      <a name="facing" val="south"/>
-      <a name="size" val="30"/>
-      <a name="inputs" val="2"/>
-    </comp>
-    <comp lib="1" loc="(2090,1020)" name="AND Gate">
-      <a name="facing" val="south"/>
-      <a name="size" val="30"/>
-      <a name="inputs" val="2"/>
-    </comp>
+    <comp lib="4" loc="(1640,680)" name="D Flip-Flop"/>
     <comp lib="0" loc="(180,280)" name="Splitter">
       <a name="facing" val="south"/>
       <a name="fanout" val="3"/>
       <a name="incoming" val="3"/>
     </comp>
+    <comp lib="4" loc="(2270,680)" name="D Flip-Flop"/>
+    <comp lib="1" loc="(1670,520)" name="AND Gate">
+      <a name="facing" val="south"/>
+      <a name="size" val="30"/>
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="0" loc="(180,1330)" name="Splitter">
+      <a name="fanout" val="11"/>
+      <a name="incoming" val="11"/>
+    </comp>
+    <comp lib="4" loc="(2270,780)" name="D Flip-Flop"/>
     <comp lib="1" loc="(830,920)" name="AND Gate">
       <a name="facing" val="south"/>
       <a name="size" val="30"/>
       <a name="inputs" val="2"/>
     </comp>
-    <comp lib="4" loc="(1220,1080)" name="D Flip-Flop"/>
-    <comp lib="1" loc="(410,420)" name="AND Gate">
-      <a name="facing" val="south"/>
-      <a name="size" val="30"/>
-      <a name="inputs" val="2"/>
-    </comp>
-    <comp lib="1" loc="(1880,520)" name="AND Gate">
-      <a name="facing" val="south"/>
-      <a name="size" val="30"/>
-      <a name="inputs" val="2"/>
-    </comp>
-    <comp lib="1" loc="(300,660)" name="AND Gate">
-      <a name="size" val="30"/>
-      <a name="inputs" val="2"/>
-    </comp>
-    <comp lib="0" loc="(170,200)" name="Splitter">
-      <a name="fanout" val="11"/>
-      <a name="incoming" val="11"/>
-    </comp>
-    <comp lib="1" loc="(2510,520)" name="AND Gate">
-      <a name="facing" val="south"/>
-      <a name="size" val="30"/>
-      <a name="inputs" val="2"/>
-    </comp>
-    <comp lib="1" loc="(300,460)" name="AND Gate">
-      <a name="size" val="30"/>
-      <a name="inputs" val="2"/>
-    </comp>
-    <comp lib="1" loc="(2510,1120)" name="AND Gate">
-      <a name="facing" val="south"/>
-      <a name="size" val="30"/>
-      <a name="inputs" val="2"/>
-    </comp>
-    <comp lib="1" loc="(410,1120)" name="AND Gate">
-      <a name="facing" val="south"/>
-      <a name="size" val="30"/>
-      <a name="inputs" val="2"/>
-    </comp>
-    <comp lib="4" loc="(800,680)" name="D Flip-Flop"/>
-    <comp lib="4" loc="(380,580)" name="D Flip-Flop"/>
-    <comp lib="4" loc="(1010,380)" name="D Flip-Flop"/>
-    <comp lib="4" loc="(1010,1080)" name="D Flip-Flop"/>
-    <comp lib="1" loc="(1040,620)" name="AND Gate">
-      <a name="facing" val="south"/>
-      <a name="size" val="30"/>
-      <a name="inputs" val="2"/>
-    </comp>
-    <comp lib="1" loc="(1040,820)" name="AND Gate">
-      <a name="facing" val="south"/>
-      <a name="size" val="30"/>
-      <a name="inputs" val="2"/>
-    </comp>
-    <comp lib="1" loc="(2340,1190)" name="OR Gate">
+    <comp lib="1" loc="(660,1190)" name="OR Gate">
       <a name="facing" val="south"/>
       <a name="size" val="30"/>
       <a name="inputs" val="8"/>
     </comp>
-    <comp lib="1" loc="(1880,620)" name="AND Gate">
+    <comp lib="1" loc="(620,1120)" name="AND Gate">
       <a name="facing" val="south"/>
       <a name="size" val="30"/>
       <a name="inputs" val="2"/>
     </comp>
-    <comp lib="4" loc="(380,1080)" name="D Flip-Flop"/>
-    <comp lib="4" loc="(380,380)" name="D Flip-Flop"/>
+    <comp lib="1" loc="(830,620)" name="AND Gate">
+      <a name="facing" val="south"/>
+      <a name="size" val="30"/>
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="1" loc="(1920,1190)" name="OR Gate">
+      <a name="facing" val="south"/>
+      <a name="size" val="30"/>
+      <a name="inputs" val="8"/>
+    </comp>
+    <comp lib="4" loc="(2060,380)" name="D Flip-Flop"/>
+    <comp lib="4" loc="(590,580)" name="D Flip-Flop"/>
+    <comp lib="1" loc="(1080,1190)" name="OR Gate">
+      <a name="facing" val="south"/>
+      <a name="size" val="30"/>
+      <a name="inputs" val="8"/>
+    </comp>
     <comp lib="1" loc="(450,1190)" name="OR Gate">
       <a name="facing" val="south"/>
       <a name="size" val="30"/>
       <a name="inputs" val="8"/>
     </comp>
-    <comp lib="1" loc="(270,540)" name="AND Gate">
+    <comp lib="1" loc="(2550,1190)" name="OR Gate">
+      <a name="facing" val="south"/>
       <a name="size" val="30"/>
-      <a name="inputs" val="3"/>
-      <a name="negate0" val="true"/>
-      <a name="negate2" val="true"/>
+      <a name="inputs" val="8"/>
     </comp>
-    <comp lib="1" loc="(1460,720)" name="AND Gate">
+    <comp lib="4" loc="(1640,580)" name="D Flip-Flop"/>
+    <comp lib="1" loc="(1250,420)" name="AND Gate">
       <a name="facing" val="south"/>
       <a name="size" val="30"/>
       <a name="inputs" val="2"/>
     </comp>
-    <comp lib="4" loc="(800,1080)" name="D Flip-Flop"/>
-    <comp lib="4" loc="(380,980)" name="D Flip-Flop"/>
-    <comp lib="1" loc="(1250,520)" name="AND Gate">
+    <comp lib="1" loc="(620,1020)" name="AND Gate">
+      <a name="facing" val="south"/>
+      <a name="size" val="30"/>
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="4" loc="(1010,880)" name="D Flip-Flop"/>
+    <comp lib="1" loc="(620,720)" name="AND Gate">
+      <a name="facing" val="south"/>
+      <a name="size" val="30"/>
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="1" loc="(410,420)" name="AND Gate">
+      <a name="facing" val="south"/>
+      <a name="size" val="30"/>
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="1" loc="(1250,1020)" name="AND Gate">
+      <a name="facing" val="south"/>
+      <a name="size" val="30"/>
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="4" loc="(2060,580)" name="D Flip-Flop"/>
+    <comp lib="1" loc="(1880,720)" name="AND Gate">
+      <a name="facing" val="south"/>
+      <a name="size" val="30"/>
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="4" loc="(1640,980)" name="D Flip-Flop"/>
+    <comp lib="1" loc="(1040,420)" name="AND Gate">
+      <a name="facing" val="south"/>
+      <a name="size" val="30"/>
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="4" loc="(1220,680)" name="D Flip-Flop"/>
+    <comp lib="0" loc="(60,290)" name="Pin">
+      <a name="facing" val="south"/>
+      <a name="tristate" val="false"/>
+      <a name="label" val="WE"/>
+      <a name="labelloc" val="north"/>
+    </comp>
+    <comp lib="4" loc="(1850,1080)" name="D Flip-Flop"/>
+    <comp lib="4" loc="(2480,980)" name="D Flip-Flop"/>
+    <comp lib="1" loc="(2090,1120)" name="AND Gate">
+      <a name="facing" val="south"/>
+      <a name="size" val="30"/>
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="1" loc="(2300,620)" name="AND Gate">
+      <a name="facing" val="south"/>
+      <a name="size" val="30"/>
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="4" loc="(2480,580)" name="D Flip-Flop"/>
+    <comp lib="4" loc="(380,780)" name="D Flip-Flop"/>
+    <comp lib="1" loc="(270,1040)" name="AND Gate">
+      <a name="size" val="30"/>
+      <a name="inputs" val="3"/>
+    </comp>
+    <comp lib="1" loc="(1040,520)" name="AND Gate">
+      <a name="facing" val="south"/>
+      <a name="size" val="30"/>
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="4" loc="(800,780)" name="D Flip-Flop"/>
+    <comp lib="4" loc="(800,980)" name="D Flip-Flop"/>
+    <comp lib="1" loc="(1460,820)" name="AND Gate">
+      <a name="facing" val="south"/>
+      <a name="size" val="30"/>
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="1" loc="(620,420)" name="AND Gate">
       <a name="facing" val="south"/>
       <a name="size" val="30"/>
       <a name="inputs" val="2"/>
@@ -1792,19 +1463,57 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
       <a name="size" val="30"/>
       <a name="inputs" val="2"/>
     </comp>
-    <comp lib="4" loc="(800,480)" name="D Flip-Flop"/>
-    <comp lib="0" loc="(60,290)" name="Pin">
-      <a name="facing" val="south"/>
-      <a name="tristate" val="false"/>
-      <a name="label" val="WE"/>
-      <a name="labelloc" val="north"/>
-    </comp>
-    <comp lib="1" loc="(1040,420)" name="AND Gate">
+    <comp lib="1" loc="(2090,520)" name="AND Gate">
       <a name="facing" val="south"/>
       <a name="size" val="30"/>
       <a name="inputs" val="2"/>
     </comp>
-    <comp lib="1" loc="(2300,820)" name="AND Gate">
+    <comp lib="1" loc="(1040,1020)" name="AND Gate">
+      <a name="facing" val="south"/>
+      <a name="size" val="30"/>
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="4" loc="(590,480)" name="D Flip-Flop"/>
+    <comp lib="1" loc="(2300,720)" name="AND Gate">
+      <a name="facing" val="south"/>
+      <a name="size" val="30"/>
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="1" loc="(410,920)" name="AND Gate">
+      <a name="facing" val="south"/>
+      <a name="size" val="30"/>
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="4" loc="(800,480)" name="D Flip-Flop"/>
+    <comp lib="1" loc="(1670,420)" name="AND Gate">
+      <a name="facing" val="south"/>
+      <a name="size" val="30"/>
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="1" loc="(1670,920)" name="AND Gate">
+      <a name="facing" val="south"/>
+      <a name="size" val="30"/>
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="4" loc="(2060,880)" name="D Flip-Flop"/>
+    <comp lib="1" loc="(830,720)" name="AND Gate">
+      <a name="facing" val="south"/>
+      <a name="size" val="30"/>
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="1" loc="(830,420)" name="AND Gate">
+      <a name="facing" val="south"/>
+      <a name="size" val="30"/>
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="1" loc="(300,860)" name="AND Gate">
+      <a name="size" val="30"/>
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="4" loc="(2060,480)" name="D Flip-Flop"/>
+    <comp lib="4" loc="(1010,580)" name="D Flip-Flop"/>
+    <comp lib="4" loc="(1640,780)" name="D Flip-Flop"/>
+    <comp lib="1" loc="(1880,420)" name="AND Gate">
       <a name="facing" val="south"/>
       <a name="size" val="30"/>
       <a name="inputs" val="2"/>
@@ -1814,34 +1523,357 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
       <a name="inputs" val="3"/>
       <a name="negate2" val="true"/>
     </comp>
-    <comp lib="4" loc="(1010,780)" name="D Flip-Flop"/>
-    <comp lib="1" loc="(2090,620)" name="AND Gate">
+    <comp lib="1" loc="(1670,1120)" name="AND Gate">
       <a name="facing" val="south"/>
       <a name="size" val="30"/>
       <a name="inputs" val="2"/>
     </comp>
-    <comp lib="4" loc="(590,380)" name="D Flip-Flop"/>
+    <comp lib="1" loc="(1040,720)" name="AND Gate">
+      <a name="facing" val="south"/>
+      <a name="size" val="30"/>
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="4" loc="(380,1080)" name="D Flip-Flop"/>
+    <comp lib="1" loc="(2510,820)" name="AND Gate">
+      <a name="facing" val="south"/>
+      <a name="size" val="30"/>
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="4" loc="(1850,680)" name="D Flip-Flop"/>
+    <comp lib="1" loc="(2340,1190)" name="OR Gate">
+      <a name="facing" val="south"/>
+      <a name="size" val="30"/>
+      <a name="inputs" val="8"/>
+    </comp>
     <comp lib="1" loc="(2300,420)" name="AND Gate">
       <a name="facing" val="south"/>
       <a name="size" val="30"/>
       <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="4" loc="(800,680)" name="D Flip-Flop"/>
+    <comp lib="4" loc="(1850,480)" name="D Flip-Flop"/>
+    <comp lib="4" loc="(380,980)" name="D Flip-Flop"/>
+    <comp lib="1" loc="(1670,620)" name="AND Gate">
+      <a name="facing" val="south"/>
+      <a name="size" val="30"/>
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="1" loc="(620,520)" name="AND Gate">
+      <a name="facing" val="south"/>
+      <a name="size" val="30"/>
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="4" loc="(1010,1080)" name="D Flip-Flop"/>
+    <comp lib="1" loc="(2300,520)" name="AND Gate">
+      <a name="facing" val="south"/>
+      <a name="size" val="30"/>
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="1" loc="(410,820)" name="AND Gate">
+      <a name="facing" val="south"/>
+      <a name="size" val="30"/>
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="4" loc="(1640,380)" name="D Flip-Flop"/>
+    <comp lib="1" loc="(270,840)" name="AND Gate">
+      <a name="size" val="30"/>
+      <a name="inputs" val="3"/>
+      <a name="negate1" val="true"/>
+    </comp>
+    <comp lib="4" loc="(800,1080)" name="D Flip-Flop"/>
+    <comp lib="1" loc="(1040,620)" name="AND Gate">
+      <a name="facing" val="south"/>
+      <a name="size" val="30"/>
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="1" loc="(2300,820)" name="AND Gate">
+      <a name="facing" val="south"/>
+      <a name="size" val="30"/>
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="4" loc="(2060,1080)" name="D Flip-Flop"/>
+    <comp lib="1" loc="(1500,1190)" name="OR Gate">
+      <a name="facing" val="south"/>
+      <a name="size" val="30"/>
+      <a name="inputs" val="8"/>
+    </comp>
+    <comp lib="4" loc="(2060,680)" name="D Flip-Flop"/>
+    <comp lib="4" loc="(380,380)" name="D Flip-Flop"/>
+    <comp lib="1" loc="(2510,620)" name="AND Gate">
+      <a name="facing" val="south"/>
+      <a name="size" val="30"/>
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="1" loc="(2130,1190)" name="OR Gate">
+      <a name="facing" val="south"/>
+      <a name="size" val="30"/>
+      <a name="inputs" val="8"/>
     </comp>
     <comp lib="1" loc="(1880,1020)" name="AND Gate">
       <a name="facing" val="south"/>
       <a name="size" val="30"/>
       <a name="inputs" val="2"/>
     </comp>
-    <comp lib="1" loc="(1670,1020)" name="AND Gate">
+    <comp lib="4" loc="(1220,480)" name="D Flip-Flop"/>
+    <comp lib="4" loc="(1220,580)" name="D Flip-Flop"/>
+    <comp lib="1" loc="(300,660)" name="AND Gate">
+      <a name="size" val="30"/>
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="1" loc="(1040,1120)" name="AND Gate">
       <a name="facing" val="south"/>
       <a name="size" val="30"/>
       <a name="inputs" val="2"/>
     </comp>
-    <comp lib="1" loc="(2550,1190)" name="OR Gate">
+    <comp lib="1" loc="(1670,720)" name="AND Gate">
       <a name="facing" val="south"/>
       <a name="size" val="30"/>
-      <a name="inputs" val="8"/>
+      <a name="inputs" val="2"/>
     </comp>
-    <comp lib="1" loc="(2090,520)" name="AND Gate">
+    <comp lib="1" loc="(2090,420)" name="AND Gate">
+      <a name="facing" val="south"/>
+      <a name="size" val="30"/>
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="1" loc="(2300,1120)" name="AND Gate">
+      <a name="facing" val="south"/>
+      <a name="size" val="30"/>
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="1" loc="(1040,920)" name="AND Gate">
+      <a name="facing" val="south"/>
+      <a name="size" val="30"/>
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="1" loc="(2510,1120)" name="AND Gate">
+      <a name="facing" val="south"/>
+      <a name="size" val="30"/>
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="1" loc="(1460,920)" name="AND Gate">
+      <a name="facing" val="south"/>
+      <a name="size" val="30"/>
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="1" loc="(2510,420)" name="AND Gate">
+      <a name="facing" val="south"/>
+      <a name="size" val="30"/>
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="4" loc="(1010,980)" name="D Flip-Flop"/>
+    <comp lib="1" loc="(410,1020)" name="AND Gate">
+      <a name="facing" val="south"/>
+      <a name="size" val="30"/>
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="1" loc="(1880,620)" name="AND Gate">
+      <a name="facing" val="south"/>
+      <a name="size" val="30"/>
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="4" loc="(2270,980)" name="D Flip-Flop"/>
+    <comp lib="4" loc="(1430,980)" name="D Flip-Flop"/>
+    <comp lib="4" loc="(1430,680)" name="D Flip-Flop"/>
+    <comp lib="1" loc="(1250,720)" name="AND Gate">
+      <a name="facing" val="south"/>
+      <a name="size" val="30"/>
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="4" loc="(1220,1080)" name="D Flip-Flop"/>
+    <comp lib="4" loc="(1850,580)" name="D Flip-Flop"/>
+    <comp lib="1" loc="(1460,520)" name="AND Gate">
+      <a name="facing" val="south"/>
+      <a name="size" val="30"/>
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="4" loc="(590,1080)" name="D Flip-Flop"/>
+    <comp lib="4" loc="(2270,380)" name="D Flip-Flop"/>
+    <comp lib="1" loc="(2090,720)" name="AND Gate">
+      <a name="facing" val="south"/>
+      <a name="size" val="30"/>
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="4" loc="(1430,1080)" name="D Flip-Flop"/>
+    <comp lib="4" loc="(2480,480)" name="D Flip-Flop"/>
+    <comp lib="4" loc="(380,480)" name="D Flip-Flop"/>
+    <comp lib="4" loc="(1220,880)" name="D Flip-Flop"/>
+    <comp lib="4" loc="(380,580)" name="D Flip-Flop"/>
+    <comp lib="4" loc="(1010,780)" name="D Flip-Flop"/>
+    <comp lib="1" loc="(1460,620)" name="AND Gate">
+      <a name="facing" val="south"/>
+      <a name="size" val="30"/>
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="4" loc="(2480,1080)" name="D Flip-Flop"/>
+    <comp lib="4" loc="(1850,380)" name="D Flip-Flop"/>
+    <comp lib="4" loc="(380,880)" name="D Flip-Flop"/>
+    <comp lib="1" loc="(1880,1120)" name="AND Gate">
+      <a name="facing" val="south"/>
+      <a name="size" val="30"/>
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="4" loc="(590,680)" name="D Flip-Flop"/>
+    <comp lib="4" loc="(380,680)" name="D Flip-Flop"/>
+    <comp lib="4" loc="(1010,380)" name="D Flip-Flop"/>
+    <comp lib="1" loc="(270,640)" name="AND Gate">
+      <a name="size" val="30"/>
+      <a name="inputs" val="3"/>
+      <a name="negate0" val="true"/>
+    </comp>
+    <comp lib="1" loc="(410,520)" name="AND Gate">
+      <a name="facing" val="south"/>
+      <a name="size" val="30"/>
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="4" loc="(1850,980)" name="D Flip-Flop"/>
+    <comp lib="1" loc="(270,540)" name="AND Gate">
+      <a name="size" val="30"/>
+      <a name="inputs" val="3"/>
+      <a name="negate0" val="true"/>
+      <a name="negate2" val="true"/>
+    </comp>
+    <comp lib="4" loc="(1430,780)" name="D Flip-Flop"/>
+    <comp lib="1" loc="(620,620)" name="AND Gate">
+      <a name="facing" val="south"/>
+      <a name="size" val="30"/>
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="4" loc="(2480,880)" name="D Flip-Flop"/>
+    <comp lib="1" loc="(620,820)" name="AND Gate">
+      <a name="facing" val="south"/>
+      <a name="size" val="30"/>
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="1" loc="(620,920)" name="AND Gate">
+      <a name="facing" val="south"/>
+      <a name="size" val="30"/>
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="4" loc="(1010,480)" name="D Flip-Flop"/>
+    <comp lib="0" loc="(170,280)" name="Pin">
+      <a name="width" val="3"/>
+      <a name="tristate" val="false"/>
+      <a name="label" val="Endereço"/>
+    </comp>
+    <comp lib="4" loc="(590,980)" name="D Flip-Flop"/>
+    <comp lib="4" loc="(1850,880)" name="D Flip-Flop"/>
+    <comp lib="1" loc="(1460,420)" name="AND Gate">
+      <a name="facing" val="south"/>
+      <a name="size" val="30"/>
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="1" loc="(830,820)" name="AND Gate">
+      <a name="facing" val="south"/>
+      <a name="size" val="30"/>
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="1" loc="(270,340)" name="AND Gate">
+      <a name="size" val="30"/>
+      <a name="inputs" val="3"/>
+      <a name="negate0" val="true"/>
+      <a name="negate1" val="true"/>
+      <a name="negate2" val="true"/>
+    </comp>
+    <comp lib="1" loc="(2510,1020)" name="AND Gate">
+      <a name="facing" val="south"/>
+      <a name="size" val="30"/>
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="1" loc="(300,1060)" name="AND Gate">
+      <a name="size" val="30"/>
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="1" loc="(2510,920)" name="AND Gate">
+      <a name="facing" val="south"/>
+      <a name="size" val="30"/>
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="1" loc="(300,360)" name="AND Gate">
+      <a name="size" val="30"/>
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="1" loc="(1880,920)" name="AND Gate">
+      <a name="facing" val="south"/>
+      <a name="size" val="30"/>
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="1" loc="(2510,520)" name="AND Gate">
+      <a name="facing" val="south"/>
+      <a name="size" val="30"/>
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="1" loc="(2300,920)" name="AND Gate">
+      <a name="facing" val="south"/>
+      <a name="size" val="30"/>
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="1" loc="(1040,820)" name="AND Gate">
+      <a name="facing" val="south"/>
+      <a name="size" val="30"/>
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="1" loc="(300,560)" name="AND Gate">
+      <a name="size" val="30"/>
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="4" loc="(2060,780)" name="D Flip-Flop"/>
+    <comp lib="1" loc="(2510,720)" name="AND Gate">
+      <a name="facing" val="south"/>
+      <a name="size" val="30"/>
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="4" loc="(2270,580)" name="D Flip-Flop"/>
+    <comp lib="4" loc="(800,580)" name="D Flip-Flop"/>
+    <comp lib="1" loc="(830,520)" name="AND Gate">
+      <a name="facing" val="south"/>
+      <a name="size" val="30"/>
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="1" loc="(1250,620)" name="AND Gate">
+      <a name="facing" val="south"/>
+      <a name="size" val="30"/>
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="4" loc="(2060,980)" name="D Flip-Flop"/>
+    <comp lib="4" loc="(590,380)" name="D Flip-Flop"/>
+    <comp lib="1" loc="(300,960)" name="AND Gate">
+      <a name="size" val="30"/>
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="4" loc="(800,880)" name="D Flip-Flop"/>
+    <comp lib="4" loc="(1220,980)" name="D Flip-Flop"/>
+    <comp lib="4" loc="(1430,880)" name="D Flip-Flop"/>
+    <comp lib="4" loc="(1640,1080)" name="D Flip-Flop"/>
+    <comp lib="1" loc="(1670,820)" name="AND Gate">
+      <a name="facing" val="south"/>
+      <a name="size" val="30"/>
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="0" loc="(170,200)" name="Splitter">
+      <a name="fanout" val="11"/>
+      <a name="incoming" val="11"/>
+    </comp>
+    <comp lib="1" loc="(1460,1020)" name="AND Gate">
+      <a name="facing" val="south"/>
+      <a name="size" val="30"/>
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="1" loc="(1460,1120)" name="AND Gate">
+      <a name="facing" val="south"/>
+      <a name="size" val="30"/>
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="1" loc="(300,460)" name="AND Gate">
+      <a name="size" val="30"/>
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="4" loc="(1640,480)" name="D Flip-Flop"/>
+    <comp lib="1" loc="(2090,1020)" name="AND Gate">
+      <a name="facing" val="south"/>
+      <a name="size" val="30"/>
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="1" loc="(1250,1120)" name="AND Gate">
       <a name="facing" val="south"/>
       <a name="size" val="30"/>
       <a name="inputs" val="2"/>
@@ -1851,24 +1883,29 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
       <a name="size" val="30"/>
       <a name="inputs" val="2"/>
     </comp>
-    <comp lib="4" loc="(2060,380)" name="D Flip-Flop"/>
-    <comp lib="1" loc="(660,1190)" name="OR Gate">
+    <comp lib="1" loc="(410,1120)" name="AND Gate">
+      <a name="facing" val="south"/>
+      <a name="size" val="30"/>
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="1" loc="(300,760)" name="AND Gate">
+      <a name="size" val="30"/>
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="4" loc="(1010,680)" name="D Flip-Flop"/>
+    <comp lib="4" loc="(1640,880)" name="D Flip-Flop"/>
+    <comp lib="4" loc="(1430,580)" name="D Flip-Flop"/>
+    <comp lib="0" loc="(130,200)" name="Pin">
+      <a name="width" val="11"/>
+      <a name="tristate" val="false"/>
+      <a name="label" val="Entrada"/>
+    </comp>
+    <comp lib="1" loc="(1710,1190)" name="OR Gate">
       <a name="facing" val="south"/>
       <a name="size" val="30"/>
       <a name="inputs" val="8"/>
     </comp>
-    <comp lib="4" loc="(1850,880)" name="D Flip-Flop"/>
-    <comp lib="1" loc="(300,360)" name="AND Gate">
-      <a name="size" val="30"/>
-      <a name="inputs" val="2"/>
-    </comp>
-    <comp lib="1" loc="(1040,920)" name="AND Gate">
-      <a name="facing" val="south"/>
-      <a name="size" val="30"/>
-      <a name="inputs" val="2"/>
-    </comp>
-    <comp lib="4" loc="(1850,580)" name="D Flip-Flop"/>
-    <comp lib="1" loc="(620,920)" name="AND Gate">
+    <comp lib="1" loc="(1250,820)" name="AND Gate">
       <a name="facing" val="south"/>
       <a name="size" val="30"/>
       <a name="inputs" val="2"/>
@@ -1879,106 +1916,78 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
       <a name="negate0" val="true"/>
       <a name="negate1" val="true"/>
     </comp>
-    <comp lib="1" loc="(270,640)" name="AND Gate">
+    <comp lib="1" loc="(870,1190)" name="OR Gate">
+      <a name="facing" val="south"/>
+      <a name="size" val="30"/>
+      <a name="inputs" val="8"/>
+    </comp>
+    <comp lib="1" loc="(1290,1190)" name="OR Gate">
+      <a name="facing" val="south"/>
+      <a name="size" val="30"/>
+      <a name="inputs" val="8"/>
+    </comp>
+    <comp lib="4" loc="(2270,1080)" name="D Flip-Flop"/>
+    <comp lib="4" loc="(1220,780)" name="D Flip-Flop"/>
+    <comp lib="4" loc="(1430,480)" name="D Flip-Flop"/>
+    <comp lib="1" loc="(2090,620)" name="AND Gate">
+      <a name="facing" val="south"/>
+      <a name="size" val="30"/>
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="4" loc="(2480,380)" name="D Flip-Flop"/>
+    <comp lib="0" loc="(160,1330)" name="Pin">
+      <a name="output" val="true"/>
+      <a name="width" val="11"/>
+      <a name="label" val="Saída"/>
+    </comp>
+    <comp lib="1" loc="(410,720)" name="AND Gate">
+      <a name="facing" val="south"/>
+      <a name="size" val="30"/>
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="4" loc="(800,380)" name="D Flip-Flop"/>
+    <comp lib="4" loc="(2480,680)" name="D Flip-Flop"/>
+    <comp lib="1" loc="(1670,1020)" name="AND Gate">
+      <a name="facing" val="south"/>
+      <a name="size" val="30"/>
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="1" loc="(1880,520)" name="AND Gate">
+      <a name="facing" val="south"/>
+      <a name="size" val="30"/>
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="4" loc="(2270,480)" name="D Flip-Flop"/>
+    <comp lib="4" loc="(2480,780)" name="D Flip-Flop"/>
+    <comp lib="1" loc="(2090,820)" name="AND Gate">
+      <a name="facing" val="south"/>
+      <a name="size" val="30"/>
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="1" loc="(1250,520)" name="AND Gate">
+      <a name="facing" val="south"/>
+      <a name="size" val="30"/>
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="4" loc="(1850,780)" name="D Flip-Flop"/>
+    <comp lib="4" loc="(2270,880)" name="D Flip-Flop"/>
+    <comp lib="1" loc="(270,740)" name="AND Gate">
       <a name="size" val="30"/>
       <a name="inputs" val="3"/>
-      <a name="negate0" val="true"/>
+      <a name="negate1" val="true"/>
+      <a name="negate2" val="true"/>
     </comp>
     <comp lib="1" loc="(1250,920)" name="AND Gate">
       <a name="facing" val="south"/>
       <a name="size" val="30"/>
       <a name="inputs" val="2"/>
     </comp>
-    <comp lib="1" loc="(410,920)" name="AND Gate">
+    <comp lib="1" loc="(1880,820)" name="AND Gate">
       <a name="facing" val="south"/>
       <a name="size" val="30"/>
       <a name="inputs" val="2"/>
     </comp>
-    <comp lib="4" loc="(1640,780)" name="D Flip-Flop"/>
-    <comp lib="1" loc="(620,1020)" name="AND Gate">
-      <a name="facing" val="south"/>
-      <a name="size" val="30"/>
-      <a name="inputs" val="2"/>
-    </comp>
-    <comp lib="1" loc="(620,720)" name="AND Gate">
-      <a name="facing" val="south"/>
-      <a name="size" val="30"/>
-      <a name="inputs" val="2"/>
-    </comp>
-    <comp lib="4" loc="(1850,380)" name="D Flip-Flop"/>
-    <comp lib="1" loc="(830,420)" name="AND Gate">
-      <a name="facing" val="south"/>
-      <a name="size" val="30"/>
-      <a name="inputs" val="2"/>
-    </comp>
-    <comp lib="1" loc="(1040,520)" name="AND Gate">
-      <a name="facing" val="south"/>
-      <a name="size" val="30"/>
-      <a name="inputs" val="2"/>
-    </comp>
-    <comp lib="4" loc="(2480,1080)" name="D Flip-Flop"/>
-    <comp lib="1" loc="(1670,820)" name="AND Gate">
-      <a name="facing" val="south"/>
-      <a name="size" val="30"/>
-      <a name="inputs" val="2"/>
-    </comp>
-    <comp lib="4" loc="(2480,780)" name="D Flip-Flop"/>
-    <comp lib="4" loc="(2060,580)" name="D Flip-Flop"/>
-    <comp lib="0" loc="(160,1330)" name="Pin">
-      <a name="output" val="true"/>
-      <a name="width" val="11"/>
-      <a name="label" val="Saída"/>
-    </comp>
-    <comp lib="1" loc="(2510,420)" name="AND Gate">
-      <a name="facing" val="south"/>
-      <a name="size" val="30"/>
-      <a name="inputs" val="2"/>
-    </comp>
-    <comp lib="4" loc="(1220,980)" name="D Flip-Flop"/>
-    <comp lib="1" loc="(2090,1120)" name="AND Gate">
-      <a name="facing" val="south"/>
-      <a name="size" val="30"/>
-      <a name="inputs" val="2"/>
-    </comp>
-    <comp lib="1" loc="(1040,720)" name="AND Gate">
-      <a name="facing" val="south"/>
-      <a name="size" val="30"/>
-      <a name="inputs" val="2"/>
-    </comp>
-    <comp lib="4" loc="(2270,780)" name="D Flip-Flop"/>
-    <comp lib="4" loc="(380,680)" name="D Flip-Flop"/>
-    <comp lib="4" loc="(1430,1080)" name="D Flip-Flop"/>
-    <comp lib="1" loc="(620,1120)" name="AND Gate">
-      <a name="facing" val="south"/>
-      <a name="size" val="30"/>
-      <a name="inputs" val="2"/>
-    </comp>
-    <comp lib="1" loc="(300,860)" name="AND Gate">
-      <a name="size" val="30"/>
-      <a name="inputs" val="2"/>
-    </comp>
-    <comp lib="4" loc="(1220,380)" name="D Flip-Flop"/>
-    <comp lib="4" loc="(590,1080)" name="D Flip-Flop"/>
-    <comp lib="4" loc="(1850,1080)" name="D Flip-Flop"/>
-    <comp lib="4" loc="(2480,480)" name="D Flip-Flop"/>
-    <comp lib="4" loc="(1640,480)" name="D Flip-Flop"/>
-    <comp lib="1" loc="(2300,1120)" name="AND Gate">
-      <a name="facing" val="south"/>
-      <a name="size" val="30"/>
-      <a name="inputs" val="2"/>
-    </comp>
-    <comp lib="4" loc="(1220,780)" name="D Flip-Flop"/>
-    <comp lib="4" loc="(1430,980)" name="D Flip-Flop"/>
-    <comp lib="1" loc="(2510,620)" name="AND Gate">
-      <a name="facing" val="south"/>
-      <a name="size" val="30"/>
-      <a name="inputs" val="2"/>
-    </comp>
-    <comp lib="1" loc="(1880,420)" name="AND Gate">
-      <a name="facing" val="south"/>
-      <a name="size" val="30"/>
-      <a name="inputs" val="2"/>
-    </comp>
-    <comp lib="4" loc="(1010,980)" name="D Flip-Flop"/>
+    <comp lib="4" loc="(1430,380)" name="D Flip-Flop"/>
+    <comp lib="4" loc="(590,880)" name="D Flip-Flop"/>
   </circuit>
 </project>
