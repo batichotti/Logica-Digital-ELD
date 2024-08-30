@@ -70,6 +70,9 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <a name="clabel" val=""/>
     <a name="clabelup" val="east"/>
     <a name="clabelfont" val="SansSerif plain 12"/>
+    <comp loc="(130,100)" name="Contador 0-7"/>
+    <comp loc="(560,100)" name="Acumulador"/>
+    <comp lib="0" loc="(50,100)" name="Clock"/>
   </circuit>
   <circuit name="Contador 0-7">
     <a name="circuit" val="Contador 0-7"/>
@@ -87,10 +90,13 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <wire from="(390,130)" to="(400,130)"/>
     <wire from="(270,130)" to="(350,130)"/>
     <wire from="(90,130)" to="(110,130)"/>
+    <comp lib="4" loc="(390,130)" name="T Flip-Flop">
+      <a name="trigger" val="falling"/>
+    </comp>
     <comp lib="4" loc="(270,130)" name="T Flip-Flop">
       <a name="trigger" val="falling"/>
     </comp>
-    <comp lib="0" loc="(230,150)" name="Constant"/>
+    <comp lib="0" loc="(350,150)" name="Constant"/>
     <comp lib="0" loc="(110,150)" name="Constant"/>
     <comp lib="0" loc="(90,130)" name="Pin">
       <a name="tristate" val="false"/>
@@ -99,16 +105,13 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <comp lib="4" loc="(150,130)" name="T Flip-Flop">
       <a name="trigger" val="falling"/>
     </comp>
+    <comp lib="0" loc="(230,150)" name="Constant"/>
     <comp lib="0" loc="(400,130)" name="Pin">
       <a name="facing" val="west"/>
       <a name="output" val="true"/>
       <a name="label" val="S"/>
       <a name="labelloc" val="east"/>
     </comp>
-    <comp lib="4" loc="(390,130)" name="T Flip-Flop">
-      <a name="trigger" val="falling"/>
-    </comp>
-    <comp lib="0" loc="(350,150)" name="Constant"/>
   </circuit>
   <circuit name="Acumulador">
     <a name="circuit" val="Acumulador"/>
@@ -119,8 +122,8 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
       <rect fill="none" height="18" stroke="#000000" stroke-width="2" width="61" x="20" y="41"/>
       <text font-family="SansSerif" font-size="12" text-anchor="middle" x="52" y="54">ac 8x1</text>
       <circ-port height="8" pin="130,330" width="8" x="46" y="36"/>
-      <circ-port height="8" pin="280,360" width="8" x="46" y="56"/>
-      <circ-port height="10" pin="130,440" width="10" x="15" y="45"/>
+      <circ-port height="8" pin="280,360" width="8" x="16" y="46"/>
+      <circ-port height="10" pin="130,440" width="10" x="45" y="55"/>
       <circ-anchor facing="east" height="6" width="6" x="77" y="47"/>
     </appear>
     <wire from="(1090,360)" to="(1200,360)"/>
@@ -224,40 +227,40 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <wire from="(770,400)" to="(780,400)"/>
     <wire from="(1200,380)" to="(1220,380)"/>
     <wire from="(190,260)" to="(770,260)"/>
-    <comp lib="0" loc="(180,440)" name="Splitter">
-      <a name="fanout" val="11"/>
-      <a name="incoming" val="11"/>
-      <a name="appear" val="right"/>
-    </comp>
     <comp lib="0" loc="(130,330)" name="Pin">
       <a name="width" val="11"/>
       <a name="tristate" val="false"/>
       <a name="label" val="Entrada"/>
     </comp>
+    <comp lib="0" loc="(180,440)" name="Splitter">
+      <a name="fanout" val="11"/>
+      <a name="incoming" val="11"/>
+      <a name="appear" val="right"/>
+    </comp>
+    <comp lib="4" loc="(1260,380)" name="D Flip-Flop"/>
     <comp lib="4" loc="(1150,380)" name="D Flip-Flop"/>
-    <comp lib="4" loc="(490,380)" name="D Flip-Flop"/>
-    <comp lib="4" loc="(1040,380)" name="D Flip-Flop"/>
-    <comp lib="4" loc="(380,380)" name="D Flip-Flop"/>
-    <comp lib="4" loc="(820,380)" name="D Flip-Flop"/>
+    <comp lib="4" loc="(1480,380)" name="D Flip-Flop"/>
     <comp lib="0" loc="(280,360)" name="Pin">
       <a name="tristate" val="false"/>
       <a name="label" val="WE"/>
       <a name="labelloc" val="north"/>
     </comp>
-    <comp lib="4" loc="(600,380)" name="D Flip-Flop"/>
-    <comp lib="4" loc="(1260,380)" name="D Flip-Flop"/>
-    <comp lib="4" loc="(930,380)" name="D Flip-Flop"/>
-    <comp lib="4" loc="(710,380)" name="D Flip-Flop"/>
     <comp lib="0" loc="(170,330)" name="Splitter">
       <a name="fanout" val="11"/>
       <a name="incoming" val="11"/>
     </comp>
+    <comp lib="4" loc="(1040,380)" name="D Flip-Flop"/>
+    <comp lib="4" loc="(820,380)" name="D Flip-Flop"/>
+    <comp lib="4" loc="(600,380)" name="D Flip-Flop"/>
+    <comp lib="4" loc="(930,380)" name="D Flip-Flop"/>
+    <comp lib="4" loc="(710,380)" name="D Flip-Flop"/>
     <comp lib="4" loc="(1370,380)" name="D Flip-Flop"/>
-    <comp lib="4" loc="(1480,380)" name="D Flip-Flop"/>
     <comp lib="0" loc="(130,440)" name="Pin">
       <a name="output" val="true"/>
       <a name="width" val="11"/>
       <a name="label" val="Saída"/>
     </comp>
+    <comp lib="4" loc="(380,380)" name="D Flip-Flop"/>
+    <comp lib="4" loc="(490,380)" name="D Flip-Flop"/>
   </circuit>
 </project>
