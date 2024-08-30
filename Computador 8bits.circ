@@ -122,11 +122,11 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <comp lib="0" loc="(230,400)" name="Probe">
       <a name="facing" val="north"/>
     </comp>
-    <comp lib="6" loc="(716,158)" name="Text">
+    <comp lib="6" loc="(720,158)" name="Text">
       <a name="text" val="110 - DVD"/>
       <a name="font" val="SansSerif plain 14"/>
     </comp>
-    <comp lib="6" loc="(719,106)" name="Text">
+    <comp lib="6" loc="(720,106)" name="Text">
       <a name="text" val="010 - XOR"/>
       <a name="font" val="SansSerif plain 14"/>
     </comp>
@@ -135,7 +135,7 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
       <a name="size" val="30"/>
       <a name="inputs" val="2"/>
     </comp>
-    <comp lib="6" loc="(718,132)" name="Text">
+    <comp lib="6" loc="(720,132)" name="Text">
       <a name="text" val="100 - SUB"/>
       <a name="font" val="SansSerif plain 14"/>
     </comp>
@@ -145,7 +145,7 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
       <a name="incoming" val="11"/>
       <a name="appear" val="center"/>
     </comp>
-    <comp lib="6" loc="(718,79)" name="Text">
+    <comp lib="6" loc="(720,79)" name="Text">
       <a name="text" val="000 - AND"/>
       <a name="font" val="SansSerif plain 14"/>
     </comp>
@@ -160,11 +160,11 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
       <a name="incoming" val="3"/>
       <a name="appear" val="center"/>
     </comp>
-    <comp lib="6" loc="(717,172)" name="Text">
+    <comp lib="6" loc="(720,172)" name="Text">
       <a name="text" val="111 - MOD"/>
       <a name="font" val="SansSerif plain 14"/>
     </comp>
-    <comp lib="6" loc="(718,119)" name="Text">
+    <comp lib="6" loc="(720,119)" name="Text">
       <a name="text" val="011 - ADD"/>
       <a name="font" val="SansSerif plain 14"/>
     </comp>
