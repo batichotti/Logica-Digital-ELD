@@ -2,4 +2,4 @@
 
 Atividades feitas na matéria citada durante o primeiro período de Ciência da Computação.
 
- - Atividade 1: Fazer
+ - Atividade 1: Fazer um
